@@ -1,4 +1,2 @@
-from django.http import HttpResponse
+from rest_framework import generics
 
-def main(request):
-    return HttpResponse("<h1>Welcome to the Music Controller API!</h1>")
